@@ -6,5 +6,6 @@ for base in bases:
     elif base == "A": print("T", end="")
     elif base == "G": print("C", end="")
     else: 
+        bases = False
         print("Invalid Input") 
         break
